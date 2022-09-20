@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon-32x32.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos.css/estilo.css">
+    <title>Organic Life</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg color">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../img/android-chrome-192x192 (1).png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-0  ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="../pages/productos.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PRODUCTOS
+                                </a>
+                                <ul class="dropdown-menu color">
+                                    <li><a class="dropdown-item" href="../pages/frutas.html">Frutas</a></li>
+                                    <li><a class="dropdown-item" href="#">Verduras</a></li>
+
+                                    <li><a class="dropdown-item" href="../pages/jugos.html">Jugos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/puntosol.html">PUNTOS OL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">CONTACTO</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <main class="styleMainCont">
+            <form>
+                <fieldset>
+                    <legend>FORMULARIO DE CONTACTO</legend>
+
+                    <div class="margin20">
+                        <label for="name"> Nombre</label>
+                        <input type="text" name="nombre" placeholder="Silvina">
+                    </div>
+
+                    <div class="margin20">
+                        <label for="name"> Apellido</label>
+                        <input type="text" name="apellido" placeholder="Busico">
+                    </div>
+
+                    <div class="margin20">
+                        <label for="genero"> Género</label>
+                        <input type="radio" name="genero" value="Mujer">MUJER
+                        <input type="radio" name="genero" value="Hombre">HOMBRE
+                        <input type="radio" name="genero" value="Otro">OTRO
+                    </div>
+
+                    <div class="margin20">
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="margin20">
+                        <label for="barrio">Barrio</label>
+                        <select name="barrio" id="">
+                            <option value="FLORES">FLORES</option>
+                            <option value="VILLA LURO">VILLA LURO</option>
+                            <option value="LINIERS">LINIERS</option>
+                            <option value="MATADEROS">MATADEROS</option>
+                        </select>
+                    </div>
+
+                    <div class="margin20">
+                        <label for="comen">Dejanos tu Consulta</label>
+                        <textarea name="comen" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="margin20">
+                        <label for="terminos"> Términos y Condiciones</label>
+                        <input type="checkbox" name="terminos">
+                    </div>
+
+                    <div class="margin20">
+                        <input type="submit" value="Enviar" id="" class="enviar">
+
+                        <input type="submit" value="Borrar Campos" class="enviar">
+                    </div>
+                </fieldset>
+            </form>
+
+        </main>
+
+    </main>
+    <footer>
+        <div class="containerFooter">
+            <div class="redes"> <a href="https://www.facebook.com" target="_blank"> <img src="../img/face-icon.png" alt="Logo de Facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"> <img src="../img/ig-icon.png" alt="Logo de Instagram"></a>
+            </div>
+            <div class="barra-de-nav-2">
+                <ul>
+                    <li><a href="../index.html">/Home/</a></li>
+                    <li><a href="../pages/nosotros.html">/Nosotros/</a></li>
+                    <li><a href="../pages/productos.html">/Productos/</a>
+                    <li><a href="../pages/puntosol.html">/Puntos o.l./</a></li>
+                    <li><a href="#">/Contacto/</a></li>
+                </ul>
+
+            </div>
+
+            <div class="ws"><img src="../img/ws-icon.png" alt="Logo de Whatsapp">
+            </div>
+
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>
