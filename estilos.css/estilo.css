@@ -40,6 +40,14 @@ main p{
 
 /* CIERRE ESTILO MAIN */
 
+/* TRANSFORMACION EN IMAGENES DE FRUTAS/VERDURAS/JUGOS */
+
+.transf:hover{
+  transform: scale(1.2,1.2);
+}
+
+/*CIERRE DE TRANSFORMACIONES */
+
 /* ESTILOS FORMULARIO CONTACTO */
 
 .styleMainCont {
