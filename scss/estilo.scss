@@ -1,0 +1,28 @@
+$color_fuente:#ffd8c8;
+$estilo_fuente: cursive;
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import "header";
+@import "main";
+@import "mainContacto";
+@import "footer";
+
+
+ .ws {
+    grid-area: ws;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;}
+
+          
+        
+    
+    
+
+

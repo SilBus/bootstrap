@@ -1,0 +1,108 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header nav {
+  background-color: #ffd8c8; }
+  header nav img {
+    border-radius: 50%;
+    border: white 3px solid; }
+    header nav img:hover {
+      border: #ffd8c8 3px solid; }
+  header nav ul li a {
+    font-family: cursive; }
+    header nav ul li a:hover {
+      font-weight: bold; }
+
+main h2 {
+  text-align: center;
+  margin: 0.5em; }
+
+main p {
+  text-align: center;
+  font-family: cursive;
+  font-size: 1.1rem; }
+
+main .bord {
+  box-shadow: 5px 16px #ffd8c8; }
+
+main .main {
+  grid-area: main; }
+
+main .transf:hover {
+  transform: scale(1.2, 1.2); }
+
+main .styleMainCont {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "header header header" ". main ." "footer footer footer";
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 50px; }
+
+main .main {
+  grid-area: main; }
+
+main form {
+  background-image: url(../img/transp2.png);
+  padding: 1rem;
+  border: solid; }
+
+main .margin20 {
+  margin: 2rem;
+  color: #ffd8c8;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  display: block; }
+
+main legend {
+  color: #fdffd9; }
+
+main .enviar {
+  margin: 10px;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: bold;
+  border: solid; }
+  main .enviar:hover {
+    color: #ffd8c8;
+    background-color: black; }
+
+footer .containerFooter {
+  padding-top: 10px;
+  display: grid;
+  background-color: #6c757d;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "redes  barra-de-nav-2  ws"; }
+  footer .containerFooter .redes {
+    grid-area: redes;
+    padding: 20px;
+    margin: 15px; }
+  footer .containerFooter .barra-de-nav-2 {
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    footer .containerFooter .barra-de-nav-2 ul {
+      list-style: none;
+      text-align: center; }
+      footer .containerFooter .barra-de-nav-2 ul li {
+        display: block;
+        padding: 2px; }
+        footer .containerFooter .barra-de-nav-2 ul li a {
+          text-decoration: none;
+          color: #fdfcfc; }
+          footer .containerFooter .barra-de-nav-2 ul li a:hover {
+            font-weight: bold; }
+
+.ws {
+  grid-area: ws;
+  position: fixed;
+  bottom: 20px;
+  right: 10px; }

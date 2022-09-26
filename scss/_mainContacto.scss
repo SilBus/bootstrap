@@ -1,0 +1,60 @@
+main{
+    .styleMainCont {
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "header header header"
+            ". main ."
+            "footer footer footer";
+
+            display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-bottom: 50px;
+      }
+      
+      .main {
+        grid-area: main
+      }
+      
+
+    form {
+        background-image: url(../img/transp2.png);
+        padding: 1rem;
+        border: solid;
+
+
+    }
+
+    .margin20 {
+        margin: 2rem;
+        color: $color_fuente;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        display: block;
+
+    }
+
+    legend {
+        color: #fdffd9;
+    }
+
+    .enviar {
+        margin: 10px;
+        font-style: italic;
+        font-size: 1rem;
+        font-weight: bold;
+        border: solid;
+
+        &:hover {
+            color: $color_fuente;
+            background-color: black;
+        }
+
+    }
+}

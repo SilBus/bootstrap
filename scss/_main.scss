@@ -1,0 +1,23 @@
+main {
+    h2 {
+        text-align: center;
+        margin: 0.5em;
+    }
+
+    p {
+        text-align: center;
+        font-family: $estilo_fuente;
+        font-size: 1.1rem;
+    }
+
+    .bord {
+        box-shadow: 5px 16px $color_fuente;
+    }
+
+    .main {
+        grid-area: main
+    }
+    .transf:hover{
+        transform: scale(1.2,1.2);
+      }
+}

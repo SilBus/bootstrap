@@ -1,0 +1,25 @@
+header {
+    nav {
+        background-color: $color_fuente;
+
+        img{
+            border-radius: 50%;
+            border: white 3px solid;
+            &:hover{
+                border: $color_fuente 3px solid;
+            }
+        }
+
+        ul {
+            li {
+                 a {
+                    font-family: $estilo_fuente;
+                    &:hover{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+    }
+}
