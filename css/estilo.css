@@ -10,10 +10,12 @@ header nav {
     border: white 3px solid; }
     header nav img:hover {
       border: #ffd8c8 3px solid; }
-  header nav ul li a {
-    font-family: cursive; }
-    header nav ul li a:hover {
-      font-weight: bold; }
+  header nav ul li {
+    background-color: #ffd8c8; }
+    header nav ul li a {
+      color: #050505; }
+      header nav ul li a:hover {
+        font-weight: bold; }
 
 main h2 {
   text-align: center;
@@ -45,7 +47,7 @@ main .styleMainCont {
   margin-top: 150px;
   margin-bottom: 50px; }
 
-main .main {
+main main {
   grid-area: main; }
 
 main form {
