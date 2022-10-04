@@ -17,8 +17,11 @@ main {
     .main {
         grid-area: main
     }
+    #galeria{
+        @include galeria
+    }
+   }       
     .transf:hover{
         transform: scale(1.2,1.2);
       }
       
-}

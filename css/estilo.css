@@ -32,7 +32,13 @@ main .bord {
 main .main {
   grid-area: main; }
 
-main .transf:hover {
+main #galeria {
+  padding: 25px; }
+  main #galeria img {
+    width: 200px;
+    height: 200px; }
+
+.transf:hover {
   transform: scale(1.2, 1.2); }
 
 main .styleMainCont {
