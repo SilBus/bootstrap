@@ -23,7 +23,7 @@
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg color">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="../img/android-chrome-192x192 (1).png" alt="Logotipo de la marca" width="120px"></a>
+                    <a class="navbar-brand" href="#"><img src="../img/android-chrome-192x192 (1).png" alt="Logotipo de la marca" width="100px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -65,66 +65,67 @@
     <!--Cierre de Header-->
 
     <!--Comienzo de Main Contacto-->
+    <main>
+    <section class="container">
+        <div class="col-sm-12 col-md-12 col-lg-12 row my-5">
 
+            <form action="" method="post" class="form">
 
+                <h3 class="display-5 text-primary text-center">Formulario de Contacto</h3>
 
-    <main class="styleMainCont">
-        <form>
-            <fieldset>
-                <legend>FORMULARIO DE CONTACTO</legend>
-
-                <div class="margin20">
-                    <label for="name"> Nombre</label>
-                    <input type="text" name="nombre" placeholder="Silvina">
+                <div class="mb-3">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Nombre Completo" id="nombre" name="nombre">
                 </div>
 
-                <div class="margin20">
-                    <label for="name"> Apellido</label>
-                    <input type="text" name="apellido" placeholder="Busico">
+                <div class="mb-3">
+
+                    <label>Apellido:</label>
+                    <input type="text" placeholder="Apellido Completo" id="apellido" name="apellido">
                 </div>
 
-                <div class="margin20">
-                    <label for="genero"> Género</label>
-                    <input type="radio" name="genero" value="Mujer">MUJER
-                    <input type="radio" name="genero" value="Hombre">HOMBRE
-                    <input type="radio" name="genero" value="Otro">OTRO
+                <div class="mb-3">
+
+                    <label>Celular:</label>
+                    <input type="text" placeholder="Celular" id="Celular" name="Celular">
                 </div>
 
-                <div class="margin20">
-                    <label for="email">Email*</label>
-                    <input type="email" name="email" required>
-                </div>
+                <div class="mb-3">
 
-                <div class="margin20">
-                    <label for="barrio">Barrio</label>
-                    <select name="barrio" id="">
-                        <option value="FLORES">FLORES</option>
-                        <option value="VILLA LURO">VILLA LURO</option>
-                        <option value="LINIERS">LINIERS</option>
-                        <option value="MATADEROS">MATADEROS</option>
+                    <label>Punto de Retiro:</label>
+                    <select name="Punto de Retiro" id="Punto de Retiro">
+                        <option value="Flores">Flores</option>
+                        <option value="Villa Luro">Villa Luro</option>
+                        <option value="Liniers">Liniers</option>
+                        <option value="Mataderos">Mataderos</option>
                     </select>
                 </div>
 
-                <div class="margin20">
-                    <label for="comen">Dejanos tu Consulta</label>
-                    <textarea name="comen" id="" cols="30" rows="10"></textarea>
+                <div class="mb-3">
+                    <label>Email</label>
+                    <input type="email" id="emails" placeholder="name@example.com">
                 </div>
 
-                <div class="margin20">
-                    <label for="terminos"> Términos y Condiciones</label>
-                    <input type="checkbox" name="terminos">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu Consulta:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
-                <div class="margin20">
-                    <input type="submit" value="Enviar" id="" class="enviar">
 
-                    <input type="submit" value="Borrar Campos" class="enviar">
+                <div class="mb-3">
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary">Borrar</button>
                 </div>
-            </fieldset>
-        </form>
+            </form>
+        </div>
+    </section>
+</main>
 
-    </main>
 
+
+
+    
     <!--Cierre de Main Contacto-->
 
     <!--Comienzo de Footer-->

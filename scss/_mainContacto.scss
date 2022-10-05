@@ -1,60 +1,15 @@
 main{
-    .styleMainCont {
-        display: grid;
-        grid-auto-columns: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-template-areas:
-            "header header header"
-            ". main ."
-            "footer footer footer";
-
-            display: flex;
-        justify-content: center;
-        margin-top: 150px;
-        margin-bottom: 50px;
-      }
-      
-      main {
-        grid-area: main
-      }
-      
-
-    form {
-        background-image: url(../img/transp2.png);
-        padding: 1rem;
-        border: solid;
-
-
-    }
-
-    .margin20 {
-        margin: 2rem;
-        color: $color_fuente;
-        text-align: center;
+    .form{
+        max-width: 25em;
+        padding: 1.3em;
+        margin: 0 auto;
+        background-color: rgba(120, 119, 123, 0.3);
         font-weight: bold;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 1rem;
-        display: block;
-
+        border-radius: 0.5em;
+        box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+    
     }
-
-    legend {
-        color: #fdffd9;
-    }
-
-    .enviar {
-        margin: 10px;
-        font-style: italic;
-        font-size: 1rem;
-        font-weight: bold;
-        border: solid;
-
-        &:hover {
-            color: $color_fuente;
-            background-color: black;
-        }
-
-    }
+    
+      
+     
 }
