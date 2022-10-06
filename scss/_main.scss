@@ -6,8 +6,26 @@ main {
 
     p {
         text-align: center;
-        font-family: $estilo_fuente;
         font-size: 1.1rem;
+    }
+
+    .tipografiaInd {
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-weight: bold;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Dancing Script', cursive;
+            text-decoration: underline;
+        }
+
+        p {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.7rem;
+        }
     }
 
     .bord {
@@ -17,11 +35,19 @@ main {
     .main {
         grid-area: main
     }
-    #galeria{
+
+    #galeria {
         @include galeria
     }
-   }       
-    .transf:hover{
-        transform: scale(1.2,1.2);
-      }
-      
+    .container{
+        .card-altura{
+            height: 200px;
+            width: 150px;
+            text-align: center;
+        }
+    }
+}
+
+.transf:hover {
+    transform: scale(1.2, 1.2);
+}

@@ -23,8 +23,21 @@ main h2 {
 
 main p {
   text-align: center;
-  font-family: cursive;
   font-size: 1.1rem; }
+
+main .tipografiaInd h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: center; }
+
+main .tipografiaInd h2 {
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline; }
+
+main .tipografiaInd p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.7rem; }
 
 main .bord {
   box-shadow: 5px 16px #ffd8c8; }
@@ -36,7 +49,12 @@ main #galeria {
   padding: 25px; }
   main #galeria img {
     width: 200px;
-    height: 200px; }
+    height: 170px; }
+
+main .container .card-altura {
+  height: 200px;
+  width: 150px;
+  text-align: center; }
 
 .transf:hover {
   transform: scale(1.2, 1.2); }
