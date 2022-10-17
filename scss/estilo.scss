@@ -15,7 +15,9 @@ $estilo_fuente: cursive;
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #fdffd9;
+}
 
 @import "header";
 @import "main";

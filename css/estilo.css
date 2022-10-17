@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: #fdffd9; }
+
 header nav {
   background-color: #ffd8c8; }
   header nav img {
@@ -26,18 +29,19 @@ main p {
   font-size: 1.1rem; }
 
 main .tipografiaInd h1 {
-  font-family: 'Dancing Script', cursive;
-  font-weight: bold;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 5rem;
   margin-top: 50px;
   text-align: center; }
 
 main .tipografiaInd h2 {
   font-family: 'Dancing Script', cursive;
-  text-decoration: underline; }
+  font-size: 2rem;
+  font-weight: bold; }
 
 main .tipografiaInd p {
   font-family: 'Dancing Script', cursive;
-  font-size: 1.7rem; }
+  font-size: 1.9rem; }
 
 main .bord {
   box-shadow: 5px 16px #ffd8c8; }
@@ -56,8 +60,15 @@ main .container .card-altura {
   width: 150px;
   text-align: center; }
 
-.transf:hover {
-  transform: scale(1.2, 1.2); }
+.transf {
+  transition: all 1s ease; }
+  .transf:hover {
+    transform: scale(1.2, 1.2); }
+
+.boxSha {
+  box-shadow: 0 0 25px #ffd8c8; }
+  .boxSha:hover {
+    box-shadow: 0 0 5px #ffd8c8, 0 0 25px #ffd8c8, 0 0 50px #ffd8c8, 0 0 100px #ffd8c8; }
 
 main .form {
   max-width: 25em;
@@ -71,7 +82,7 @@ main .form {
 footer .containerFooter {
   padding-top: 10px;
   display: grid;
-  background-color: #6c757d;
+  background-color: #ffd8c8;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "redes  barra-de-nav-2  ws"; }
@@ -90,7 +101,7 @@ footer .containerFooter {
         padding: 2px; }
         footer .containerFooter .barra-de-nav-2 ul li a {
           text-decoration: none;
-          color: #fdfcfc; }
+          color: #080808; }
           footer .containerFooter .barra-de-nav-2 ul li a:hover {
             font-weight: bold; }
 

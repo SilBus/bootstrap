@@ -11,20 +11,22 @@ main {
 
     .tipografiaInd {
         h1 {
-            font-family: 'Dancing Script', cursive;
-            font-weight: bold;
+            font-family:'Fredericka the Great', cursive;
+            font-size: 5rem;
             margin-top: 50px;
             text-align: center;
         }
 
         h2 {
             font-family: 'Dancing Script', cursive;
-            text-decoration: underline;
+            font-size: 2rem;
+            font-weight: bold;
+            
         }
 
         p {
             font-family: 'Dancing Script', cursive;
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
     }
 
@@ -48,6 +50,22 @@ main {
     }
 }
 
-.transf:hover {
-    transform: scale(1.2, 1.2);
+.transf{
+    transition: all 1s ease;
+    
+    &:hover{
+        transform: scale(1.2, 1.2);
+    }
+
+}
+
+.boxSha{
+    box-shadow: 0 0 25px $color_fuente;
+
+    &:hover{
+        box-shadow: 0 0 5px $color_fuente,
+                    0 0 25px  $color_fuente,
+                    0 0 50px  $color_fuente,
+                    0 0 100px  $color_fuente;
+    }
 }

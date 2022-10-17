@@ -3,7 +3,7 @@ footer {
         
         padding-top: 10px;
         display: grid;
-        background-color: #6c757d;
+        background-color: $color_fuente;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "redes  barra-de-nav-2  ws";
@@ -29,7 +29,7 @@ footer {
 
                     a {
                         text-decoration: none;
-                        color: rgb(253, 252, 252);
+                        color: rgb(8, 8, 8);
 
                         &:hover {
                             font-weight: bold;
