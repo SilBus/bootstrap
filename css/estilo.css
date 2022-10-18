@@ -79,31 +79,22 @@ main .form {
   border-radius: 0.5em;
   box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85); }
 
-footer .containerFooter {
-  padding-top: 10px;
-  display: grid;
-  background-color: #ffd8c8;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "redes  barra-de-nav-2  ws"; }
-  footer .containerFooter .redes {
-    grid-area: redes;
-    padding: 20px;
-    margin: 15px; }
-  footer .containerFooter .barra-de-nav-2 {
-    font-size: 1.1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-    footer .containerFooter .barra-de-nav-2 ul {
-      list-style: none;
-      text-align: center; }
-      footer .containerFooter .barra-de-nav-2 ul li {
-        display: block;
-        padding: 2px; }
-        footer .containerFooter .barra-de-nav-2 ul li a {
-          text-decoration: none;
-          color: #080808; }
-          footer .containerFooter .barra-de-nav-2 ul li a:hover {
-            font-weight: bold; }
+footer .container-fluid {
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ffd8c8; }
+  footer .container-fluid ul {
+    list-style: none;
+    text-align: center; }
+    footer .container-fluid ul li {
+      display: block;
+      padding: 2px; }
+      footer .container-fluid ul li a {
+        text-decoration: none;
+        color: #080808; }
+        footer .container-fluid ul li a:hover {
+          font-weight: bold;
+          color: black; }
 
 .ws {
   grid-area: ws;

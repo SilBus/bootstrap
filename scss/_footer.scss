@@ -1,39 +1,24 @@
 footer {
-    .containerFooter {
-        
-        padding-top: 10px;
-        display: grid;
+    .container-fluid {
+        font-size: 1.1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         background-color: $color_fuente;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "redes  barra-de-nav-2  ws";
 
-        .redes {
-            grid-area: redes;
-            padding: 20px;
-            margin: 15px;
+        ul {
+            list-style: none;
+            text-align: center;
 
-        }
+            li {
+                display: block;
+                padding: 2px;
 
-        .barra-de-nav-2 {
-            font-size: 1.1rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                a {
+                    text-decoration: none;
+                    color: rgb(8, 8, 8);
 
-            ul {
-                list-style: none;
-                text-align: center;
-
-                li {
-                    display: block;
-                    padding: 2px;
-
-                    a {
-                        text-decoration: none;
-                        color: rgb(8, 8, 8);
-
-                        &:hover {
-                            font-weight: bold;
-                        }
+                    &:hover {
+                        font-weight: bold;
+                        color: black;
                     }
                 }
             }
