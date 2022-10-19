@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #fdffd9; }
+  background-color: white; }
 
 header nav {
   background-color: #ffd8c8; }
@@ -63,21 +63,32 @@ main .container .card-altura {
 .transf {
   transition: all 1s ease; }
   .transf:hover {
-    transform: scale(1.2, 1.2); }
+    transform: scale(1.1, 1.1); }
 
 .boxSha {
   box-shadow: 0 0 25px #ffd8c8; }
   .boxSha:hover {
     box-shadow: 0 0 5px #ffd8c8, 0 0 25px #ffd8c8, 0 0 50px #ffd8c8, 0 0 100px #ffd8c8; }
 
-main .form {
-  max-width: 25em;
-  padding: 1.3em;
-  margin: 0 auto;
-  background-color: rgba(120, 119, 123, 0.3);
-  font-weight: bold;
-  border-radius: 0.5em;
-  box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85); }
+.bg-contact {
+  background-color: rgba(3, 3, 3, 0.438); }
+  .bg-contact .form {
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgba(120, 119, 123, 0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85); }
+  .bg-contact .text-color {
+    color: #ffd8c8; }
+  .bg-contact .text-color1 {
+    color: #ffd8c8;
+    font-size: 1.3rem; }
+  .bg-contact .text-dise {
+    color: #ffd8c8;
+    font-size: 1.5rem;
+    font-weight: 500; }
 
 footer .container-fluid {
   font-size: 1.1rem;
