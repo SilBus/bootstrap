@@ -11,12 +11,10 @@ header nav {
   header nav img {
     border-radius: 50%;
     border: white 3px solid; }
-    header nav img:hover {
-      border: #ffd8c8 3px solid; }
   header nav ul li {
     background-color: #ffd8c8; }
     header nav ul li a {
-      color: #050505; }
+      color: #0e0d0d; }
       header nav ul li a:hover {
         font-weight: bold; }
 
